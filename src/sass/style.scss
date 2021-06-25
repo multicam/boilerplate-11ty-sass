@@ -1,6 +1,17 @@
 @import 'normalize';
+@import 'iceberg';
+@import 'editor';
+@import 'fluff';
 
 body {
   font-family: sans-serif;
   background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+body > section {
+  flex:1;
+  padding-bottom: 1rem;
 }
